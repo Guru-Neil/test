@@ -1,0 +1,109 @@
+body {
+	margin:0;
+}
+  
+header {
+	width:100%; 
+	background:#fff; 
+	height:50px; 
+	line-height:50px;
+}
+
+.MenuTitle,
+.MenuClose
+ {
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10;
+}
+
+.menu {
+  z-index:10; 
+  font-weight:bold; 
+  font-size:0.8em; 
+  width:100%; 
+  background:#999;  
+  position:absolute; 
+  text-align:center;
+  opacity: 0.4;
+}
+
+.menu ul {
+  margin: 0; 
+  padding: 0; 
+  list-style-type: none; 
+  list-style-image: none;
+}
+
+.menu li {
+  display: block;  
+   padding:15px 0 15px 0; 
+   border-bottom:#1d1f20 1px solid;
+ }
+
+.menu li:hover {
+  display: block;    
+  background:#181818; 
+  padding:15px 0 15px 0; 
+  border-bottom:#1d1f20 1px solid;
+}
+
+.menu ul li a { 
+  text-decoration:none; 
+   margin: 0px; 
+   color:#000;
+ }
+
+.menu ul li a:hover {  
+  color: #fff; 
+  text-decoration:none;
+}
+
+.menu a {
+  text-decoration:none; 
+  color: #000;
+}
+
+.menu a:hover {
+  text-decoration:none; 
+  color:white;
+}
+
+.header-text ul {
+  list-style-type: none; 
+  float: left;
+  padding: none;
+  margin: none;
+  border: none;
+}
+
+.header-text li {
+  display: inline-block;
+  padding: none;
+}
+
+.status {
+  padding-left: 20px;
+}
+
+.name {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4em;
+  z-index: 20;
+}
+
+.status {
+  font-family: 'Sail', cursive;
+  font-size: 1.4em;
+  z-index: 20;
+}
